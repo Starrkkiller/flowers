@@ -1,0 +1,121 @@
+/* ------------Reset CSS--------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+/* ------------Specification--------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	color: #fff;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	line-height: 1rem;
+	padding: 3rem;
+	background: rgb(0,164,255);
+	background: linear-gradient(0deg, rgba(0,164,255,1) 0%, rgba(0,125,255,1) 100%);
+	height: 100%;
+	font-family: 'Comfortaa', cursive;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  transition: all 1000ms cubic-bezier(0.075, 1.000, 0.250, 1.000);
+	display: block;
+	font-size: 1.2rem;
+}
+
+label {
+	position: relative;
+}
+
+input::-webkit-input-placeholder {
+  color: #BAD8F5;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+	border: none;
+} 
+
+input:focus {
+	outline: none;
+ }
+
+h1 {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+h4 {
+	color: black;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+/* ------------Vars--------------*/
+
+:root {
+	--index: (1vw + 1vh);
+	--gap: 1em;
+}
+

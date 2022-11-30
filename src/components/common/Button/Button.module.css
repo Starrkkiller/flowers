@@ -1,0 +1,19 @@
+._ {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0.25rem;
+  width: 8rem;
+  height: 1.5rem;
+  color: #459DF5;
+  font-size: 1.2rem;
+}
+
+._ svg {
+  fill: #459DF5;
+}
+
+.long svg, .medium svg, .short svg {
+  fill: #459DF5;
+}
+
